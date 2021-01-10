@@ -1,0 +1,14 @@
+cd /content/drive/MyDrive/keras-frcnn-master
+
+!python train_frcnn.py -o simple -p annotate.txt
+
+
+Mean number of bounding boxes from RPN overlapping ground truth boxes: 19.84
+Classifier accuracy for bounding boxes from RPN: 0.833125
+Loss RPN classifier: 1.250563727049151
+Loss RPN regression: 0.0852904839045368
+Loss Detector classifier: 0.3822196488827467
+Loss Detector regression: 0.22752860192209481
+Elapsed time: 31.837300300598145
+
+Total loss decreased from 1.8229168435840692 to 1.6661704539309825, saving weights
