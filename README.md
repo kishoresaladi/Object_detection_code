@@ -35,5 +35,7 @@ NOTES:
 paper. The anchor box sizes are [128, 256, 512] and the ratios are [1:1, 1:2, 2:1].
 - The tensorflow backend performs a resize on the pooling region, instead of max pooling. This is much more efficient and has little impact on results.
 
+OUTPUT:
 
+- Results will be saved in the results_img folder for that particular image with the same name.
 
